@@ -93,6 +93,7 @@ header .header-title{
 }
 #rd:checked + .radio{
 	background: url(../img/gou.png) no-repeat center center #00C963;
+	background-size: 0.4rem 0.32rem;
 }
 /************重写复选框************/
 /************************main************************/
