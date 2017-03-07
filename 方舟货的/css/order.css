@@ -1,0 +1,197 @@
+
+/*body,html{
+	font-family: "宋体";
+}*/
+
+/**********************header***************************/
+header{
+	width: 100%;
+	height: 1.84rem;
+	border-bottom: solid 1px #00C963;
+	line-height: 1.84rem;
+	text-align: center;
+	position: relative;
+}
+header .back-ico{
+	display: inline-block;
+	width: 1.24rem;
+	height: 100%;
+	background: url(../img/back-ico.png) no-repeat center center;
+	background-size: 0.44rem 0.8rem;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+header .header-title{
+	display: inline;
+	font-weight: normal;
+	font-size: 0.76rem;
+	color: #333;
+	font-family: "微软雅黑";
+	vertical-align: top;
+}
+
+/**********************header***************************/
+
+
+
+/**********************main***************************/
+.main{
+	width: 100%;
+	/*background: #F8F8F8;*/
+}
+.main-top{
+	padding: 0.4rem;
+	/*width: 100%;*/
+	background: #fff;
+
+	border-bottom: solid 0.4rem #F8F8F8;
+}
+.head-img{
+	width: 2.12rem;
+	height: 2.12rem;
+	background: url(../img/touxiang.png) no-repeat ;
+	background-size:  2.12rem  2.12rem;
+	margin-right: 0.4rem;
+	margin-top: 0.2rem;
+}
+.order-detail{
+	
+}
+.order-detail .people{
+	font-size: 0.64rem;
+	color: #333;
+}
+.order-detail .car{
+	font-size: 0.48rem;
+	color: #969696;
+	margin: 0.36rem 0 0.4rem;
+}
+.order-detail .star{
+	/*height: 0.4rem;*/
+}
+.order-detail .star span{
+	float: left;
+	display: block;
+	width: 0.4rem;
+	height: 0.4rem;
+	margin-right: 0.1rem;
+	background: url(../img/star.png) no-repeat;
+	background-size: 0.4rem 0.4rem;
+}
+.order-detail .star span.last{
+	background: url(../img/star2.png) no-repeat;
+	background-size: 0.4rem 0.4rem;
+}
+
+.phone-ico{
+	width: 1.6rem;
+	height: 1.6rem;
+	border-radius: 50%;
+	border:solid 1px #00C963;
+	background: url(../img/phone.png) no-repeat center center;
+	background-size: 1rem 1rem;
+	margin-top: 0.2rem;
+}
+
+
+.main-middle{
+	/*width: 100%;*/
+	background: #fff;
+	padding-left: 0.4rem;
+	padding-right: 0.4rem;
+}
+.box{
+	border-bottom: solid 1px #E2E2E2;
+	font-size: 0.64rem;
+	padding: 0.6rem 0;
+}
+dl dt{
+	/*font-size: 0.64rem;*/
+	color: #969696;
+}
+dl dd{
+	text-align: right;
+	color: #333;
+	font-family: "微软雅黑";
+}
+dl dd p.phoneNumber{
+	color: #969696;
+}
+.waitTime{
+	padding: 0.42rem 0;
+}
+.waitTime .timerBox{
+	font-size: 0.48rem;
+	/*height: 0.52rem;
+	line-height: 0.52rem;*/
+	vertical-align: middle;
+	color: #969696;
+	background: url(../img/time.png) no-repeat left center;
+	background-size: 0.52rem 0.52rem;
+	padding-left: 0.76rem;
+}
+
+.waitTime .wait{
+	font-size: 0.52rem;
+	color: #07ca61;
+}
+.carStyle{
+	
+}
+.startArea{
+	
+}
+.endArea{
+	
+}
+.startTime{
+	
+}
+.addService{
+	
+}
+.remark{
+	
+}
+
+.main-middle .pay{
+	border-bottom: 0;
+}
+.pay dl.dl-1,.pay dl.dl-2,.pay dl.dl-3{
+	margin-bottom: 0.56rem;
+}
+.pay dl.dl-4 i{
+	color: #F3411B;
+}
+.pay dl.dl-4 em{
+	display: inline-block;
+	width: 0.28rem;
+	height: 0.48rem;
+	background: url(../img/go-ico.png) no-repeat;
+}
+.pay dl.last{
+	margin: 0.8rem 0 1.04rem;
+}
+.pay dl.last dt{
+	color: #333;
+}
+.pay dl.last dd{
+	color: #f32f00;
+}
+
+.pay-btn{
+	width: 100%;
+	height: 1.92rem;
+	line-height: 1.92rem;
+	background: #00C963;
+	text-align: center;
+	color: #fff;
+	font-size: 0.64rem;
+	font-family: "宋体";
+	border-radius: 5px;
+}
+
+
+/**********************main***************************/
+

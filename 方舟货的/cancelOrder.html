@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		
+		<link rel="stylesheet" type="text/css" href="css/public.css"/>
+		<link rel="stylesheet" type="text/css" href="css/cancelOrder.css"/>
+		<script type="text/javascript" src="js/mobile.js"></script>
+	</head>
+	<body>
+		<header>
+			<i class="back-ico"></i>
+			<h3 class="header-title ">取消订单</h3>		
+		</header>
+		<div class="alert">
+			若单日取消订单达到3次，账户将会被冻结1天，请谨慎取消!
+				<br />您当日已取消<span class="num"> 2 </span>次
+		</div>
+		<div class="main">
+			<div class="main-top">
+				请您真实告诉我们取消原因<br />
+				<span>我们会努力为您提供更好的服务</span>
+			</div>
+			<div class="main-bottom">
+				<div class="box clear">
+					<label class="fl">司机离我太远</label>
+					<label class="fr">
+						<input type="radio" id="rd" name="reason" value="" hidden/>
+						<span class="radio"></span>
+					</label>
+				</div>
+				<div class="box clear">
+					<label class="fl">下错单或重复下单</label>
+					<label class="fr">
+						<input type="radio" id="rd" name="reason" value="" hidden/>
+						<span class="radio"></span>
+					</label>
+				</div>
+				<div class="box clear">
+					<label class="fl">暂时不需要车</label>
+					<label class="fr">
+						<input type="radio" id="rd" name="reason" value="" hidden/>
+						<span class="radio"></span>
+					</label>
+				</div>
+				<div class="box clear">
+					<label class="fl">司机让我取消订单</label>
+					<label class="fr">
+						<input type="radio" id="rd" name="reason" value="" hidden/>
+						<span class="radio"></span>
+					</label>
+				</div>
+				<div class="submit">
+					提交
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

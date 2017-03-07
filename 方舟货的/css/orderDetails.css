@@ -1,0 +1,196 @@
+
+/*body,html{
+	font-family: "宋体";
+}*/
+
+/**********************header***************************/
+header{
+	width: 100%;
+	height: 1.84rem;
+	border-bottom: solid 1px #00C963;
+	line-height: 1.84rem;
+	text-align: center;
+	position: relative;
+}
+header .back-ico{
+	display: inline-block;
+	width: 1.24rem;
+	height: 100%;
+	background: url(../img/back-ico.png) no-repeat center center;
+	background-size: 0.44rem 0.8rem;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+header .header-title{
+	display: inline;
+	font-weight: normal;
+	font-size: 0.76rem;
+	color: #333;
+	font-family: "微软雅黑";
+	vertical-align: top;
+}
+header .cancelOrder{
+	font-size: 0.56rem;
+	color: #6a6a6a;
+	height: 1.84rem;
+	line-height: 1.84rem;
+	vertical-align: top;
+	/*margin-right: 0.4rem;*/
+	position: absolute;
+	top: 0;
+	right: 0.4rem;
+}
+/**********************header***************************/
+
+
+
+/**********************main***************************/
+.main{
+	width: 100%;
+	/*background: #F8F8F8;*/
+}
+.main-top{
+	padding: 0.76rem 0 0.8rem;
+	/*width: 100%;*/
+	background: #fff;
+	border-bottom: solid 0.4rem #F8F8F8;
+	text-align: center;
+	font-size: 0.64rem;
+	color: #333;
+}
+.main-top i{
+	font-size: 0.56rem;
+	color: #969696;
+	height: 0.88rem;
+	vertical-align: middle;
+}
+.main-top span.time{
+	font-size: 0.56rem;
+	color: #f32f00;
+	height: 0.88rem;
+	vertical-align: middle;
+}
+
+/*.main-top p{
+	font-size: 0.64rem;
+	color: #333;
+	width: 14.16rem;
+	margin: 0 auto;
+	margin-bottom: 0.4rem;
+}*/
+/*.main-top .time-box{
+	width: 14.16rem;
+	font-size: 0.56rem;
+	color: #969696;
+	margin: 0 auto;
+	text-align: center;
+}*/
+/*.time-box span.time{
+	color: #f32f00;
+}*/
+.main-middle{
+	/*width: 100%;*/
+	background: #fff;
+	padding-left: 0.4rem;
+	padding-right: 0.4rem;
+}
+.box{
+	border-bottom: solid 1px #E2E2E2;
+	font-size: 0.64rem;
+	padding: 0.6rem 0;
+}
+dl dt{
+	/*font-size: 0.64rem;*/
+	color: #969696;
+}
+dl dd{
+	text-align: right;
+	color: #333;
+	font-family: "微软雅黑";
+}
+dl dd p.phoneNumber{
+	color: #969696;
+}
+.waitTime{
+	padding: 0.42rem 0;
+}
+.waitTime .timerBox{
+	font-size: 0.48rem;
+	/*height: 0.52rem;
+	line-height: 0.52rem;*/
+	vertical-align: middle;
+	color: #969696;
+	background: url(../img/time.png) no-repeat left center;
+	background-size: 0.52rem 0.52rem;
+	padding-left: 0.76rem;
+}
+/*.timerBox em{
+	display: inline-block;
+	width: 0.52rem;
+	height: 0.52rem;
+	background: url(../img/time.png) no-repeat center center;
+	background-size: 0.52rem 0.52rem;
+	vertical-align: top;
+	font-family: "微软雅黑";
+}*/
+.waitTime .wait{
+	font-size: 0.52rem;
+	color: #07ca61;
+}
+.carStyle{
+	
+}
+.startArea{
+	
+}
+.endArea{
+	
+}
+.startTime{
+	
+}
+.addService{
+	
+}
+.remark{
+	
+}
+
+.main-middle .pay{
+	border-bottom: 0;
+}
+.pay dl.dl-1,.pay dl.dl-2,.pay dl.dl-3{
+	margin-bottom: 0.56rem;
+}
+.pay dl.dl-4 i{
+	color: #F3411B;
+}
+.pay dl.dl-4 em{
+	display: inline-block;
+	width: 0.28rem;
+	height: 0.48rem;
+	background: url(../img/go-ico.png) no-repeat;
+}
+.pay dl.last{
+	margin: 0.8rem 0 0.96rem;
+}
+.pay dl.last dt{
+	color: #333;
+}
+.pay dl.last dd{
+	color: #f32f00;
+}
+.main-bottom{
+	width: 100%;
+	background: #F8F8F8;
+	color: #07ca61;
+	font-size: 0.52rem;
+	text-align: center;
+	line-height: 0.72rem;
+	padding: 0.52rem 0 0.4rem;
+}
+
+
+/**********************main***************************/
+
